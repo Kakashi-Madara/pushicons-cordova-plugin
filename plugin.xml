@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="pushicons-cordova-plugin" version="1.0.2">
+	
+	<name>Pushicons</name>
+
+	<description>
+		Set Pushwoosh Notification Icons.
+	</description>
+
+	<license>MIT</license>
+	
+	<repo>https://github.com/Kakashi-Madara/pushicons-cordova-plugin</repo>
+	<issue>https://github.com/Kakashi-Madara/pushicons-cordova-plugin/issues</issue>
+
+
+	
+		<!-- android -->
+	<platform name="android">
+		<resource-file src="icon.png" target="res/drawable/pw_notification.png" />
+	</platform>
+
+</plugin>
